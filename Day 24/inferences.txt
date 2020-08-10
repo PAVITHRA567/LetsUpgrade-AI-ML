@@ -1,0 +1,36 @@
+Attrition Rules
+1)If Totalworkingyears<=1.5  and monthlyincome<=112610 and monthlyincome>23140 and  age<=23.5 and age>=18.5 Attrition Yes.
+2)If Totalworkingyears<=1.5 and monthlyincomme>23140 and age<23.5 and monthlyincome<=32530 Attrition Yes
+3)If Totalworkingyears<=1.5 and age<=33.5 and monthlyincome>112610 and jobrole>5.0 and distancefromhome>5 Attrition Yes
+4)If Totalworkingyears>1.5 and age>33.5 and totalworkingyears<=39.0 and monthlyincome<=10300 Attrition Yes
+5)If Totalworkingyears>1.5 and age<=33.5 and Numcompaniesworked>4.5 and Numcompaniesworkes<=7.5 and jobrole>0.5 and less than 6.5 Attrition Yes
+6)If Totalworkingyears>1.5 and age<=33.5 and Numcompaniesworked>4.5 and Numcompaniesworkes>7.5 and TotalWorkingYears<=7.5 and monthlyincome<=25035 Attrition Yes
+7)If Totalworkingyears>1.5 and age>33.5 and totalworkingyears<=39.0 and monthlyincome>10300 and yearsatcompany>1.5 and distancefromhome>3.5 Attrition Yes
+
+BankLoan Rules
+1)If CCAvg<=2.95 and CDAcc<=0.5 and CCAvg<=2.85 and Education>1.5 and Family>1.5 Personal Loan Sanctioned
+2)If CCAvg<=2.95 and CDAcc>0.5 and family<=2.5 and education>1.5 and CCavg>2.2 and less than 2.45 Personal Loan Sanctioned
+3)If CCavg>2.95 and Education>1.5 and CCAvg>4.55 Personal Loan Sanctioned
+4)If CCavg>2.95 and Education<=1.5 and family>2.5 and ccavg>5.05 Personal Loan Sanctioned
+5)If CCavg>2.95 and Education>1.5 and CDAcc>0.5 and ccavg<=3.95 Personal Loan Sanctioned
+6)If CCavg>2.95cand education<=1.5 and family>2.5 and ccavg<=5.05 and CDacc>0.5 Personal Loan Sanctioned
+7)If CCavg>2.95 and education>1.5 and ccavg<=4.55 and CDacc<=0.5 and ccavg<=4.45 and CCavg>=4.05 Personal Loan Sanctioned
+
+Titanic Rules
+1)If gender is female and fare less than 48.2 and fare greater than 26.15 survived
+
+2)If gender is female and fare less than 26.15 and age less than 25.5 survived
+
+3)If gender is female and fare greater than 48.2 and less than 69.42 survived
+
+4)If gender is female and fare greater than 70.27 and age less than 25.5 survived
+
+5)If gender is female and fare greater than 70.27 and age greater than 25.5 survived
+
+5)If gender is male and age is less than 6.5 and fare less than 20.82 survived
+
+6)If gender is male and age is less than 6.5 and fare greater than 64.37 survived
+
+7)If gender is male and age is greater than 6.5 and fare less than 26.46 survived
+
+8)If gender is male and age is greater than 6.5 and fare greater than 26.46 survived and less than 387 survived
